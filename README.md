@@ -21,8 +21,13 @@
 - `elevation`で影をつけることができる
   - iosのように細かな制御はできないっぽい
 
-  ```js
-  elevation: 10
-  ```
+```js
+elevation: 10
+```
 
 ![android](./android.png)
+
+- elevation
+  - サポートはandroid5以上のみ
+  - 4系は諦める
+  - https://facebook.github.io/react-native/docs/view-style-props#elevation
